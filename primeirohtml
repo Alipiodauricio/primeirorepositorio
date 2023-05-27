@@ -1,0 +1,96 @@
+<html>
+
+ <head>
+  <title>Primeiro contato com html</title>
+ </head>
+
+ <body>
+   <body link=red >
+   <a href=https://www.instagram.com/complex.pc/><img src=C:/foto/Roxx-Energy.png align=right></a>
+  <p></p><font size=6, color=black><b>Complete para seu cadastro.</font></b></p>
+  <a href="mailto:meuemail@meudominio.com">Entre em contato</a>
+
+  <hr>
+</hr>
+  <p align=justify><font size=5><b>Dados pessoais</font></b></p>
+  <p align=justify><font size=4><i>Nome:</font><br>
+     <font size=4>Nasc:</font></br>
+     <font size=4>End:</i></font></p>
+     <TABLE BORDER="1" bordercolor=red bgcolor=lightgray CELLSPACING="5" CELLPADDING="3">
+		<TR align=center>
+			<TD>Nome</TD>
+			<TD>Nasc</TD>
+         <td>Endereco</td>
+		<TR>
+			<TD>Alipio</TD>
+			<TD>16/10/2005</TD>
+         <td>Rua 123</td>
+		<TR>
+			<TD>Juliano</TD>
+			<TD>16/06/1975</TD>
+         <td>Rua 123</td>
+	</TABLE>
+<hr>
+  </hr>
+  <p align=justify><font size=5><b>Dados bancarios</font></b></p>
+  <p align=justify><font size=4><i>Nmr. Cartao:</font><br>
+   <font size=4>CVV:</font></br>
+   <font size=4>Valid:</i></font></p>
+   <TABLE BORDER="1" bordercolor=red bgcolor=lightgray CELLSPACING="5" CELLPADDING="3">
+		<TR align=center>
+			<TD>Nmr. Cartao</TD>
+			<TD>CVV</TD>
+         <TD>Valid</TD>
+		<TR>
+			<TD>1234 1234 1234</TD>
+			<TD>123</TD>
+         <TD>10/23</TD>
+		<TR>
+			<TD>4321 4321 4321</TD>
+			<TD>321</TD>
+         <TD>23/10</TD>
+	</TABLE>
+<hr>
+  </hr>
+
+  <p align=justify><font size=5, color=black><b>Siga os passos abaixo para concluir o recrutamento.</font></b></p>
+  <ol>
+   <li><font size=4><i>Envie o formulario!</font><br>
+   <li><font size=4>Aguarde ate q o mentor te responda.</font></br>
+   <li><font size=4>Faca um post indicando sua ingressao.</i></font></p>
+</ol>
+
+   <FORM ACTION="email@email.com" METHOD="get">
+		<P><FONT FACE="CALIBRI">Nome, discord: <INPUT TYPE=TEXT  NAME="nome" SIZE="25" MAXLENGHT="50"></P>
+		<P>Estado: <INPUT TYPE =text NAME="uf" SIZE="2" VALUE="SP"></FONT></P>
+      <P>Selecione conforme disponibilidade<BR>
+         <INPUT TYPE=radio NAME="selecao-cartao" CHECKED>Tarde (16:00)
+         <BR>
+         <INPUT TYPE=radio NAME="selecao-cartao">Noite (20:00)
+      </P>
+      <P>Selecione suas posicoes:<BR>
+			<INPUT TYPE=checkbox NAME="Posicao1" SIZE="1">Entry<BR>
+			<INPUT TYPE=checkbox NAME="Posicao2" SIZE="1">Sup<BR>
+         <INPUT TYPE=checkbox NAME="Posicao3" SIZE="1">Awper<BR>
+			<INPUT TYPE=checkbox NAME="Posicao4" SIZE="1">IGL</P>
+         <INPUT TYPE=submit VALUE="Enviar"><INPUT TYPE=reset VALUE="Limpar">
+
+   <p>Escolha mapa que voce se destaca</p>
+   <FORM>
+       <SELECT NAME="Mapas">
+          <OPTION>Mirage
+          <OPTION>Inferno
+          <OPTION>Dust2 
+          <OPTION>Overpass
+       </SELECT>
+   </FORM>
+
+   </form> 
+
+  <hr>
+  </hr>
+  <p align=justify><font size=5, color=black><b>Cadastro concluido com sucesso!</font></b></p>
+ 
+ </body>
+
+</html>
